@@ -1,0 +1,26 @@
+﻿Zdefiniować opisane niżej klasy i zastosować zagadnienia z dziedziczenia (dziedziczenie po klasach i klasy abstrakcyjne, albo interfejsy; odpowiednie modyfikatory i przesłanianie składowych, itp), w celu uniknięcia powtórzeń kodu i zapewnienia zgodności zachowania podobnych typów. W miejscach, gdzie polecenie pozwala na NotImplementedException, zapewnienie (użytecznej) implementacji może wiązać się z dodatkowymi punktami
+* Produkt:
+   * string Nazwa
+   * decimal CenaNetto - nie może być ujemna
+   * string KategoriaVAT - walidowana względem zbioru/kluczy słownika statycznego zawierającego przynajmniej 4 pozycje
+   * decimal CenaBrutto - może być NotImplementedException, ale implementacja sprowadza się do wyciągnięcia stawki VAT i dodania VATu do ceny netto
+   * string KrajPochodzenia - może być NotImplementedException; w wypadku implementacji walidować względem zbioru statycznego
+* ProduktSpożywczy:
+   * wszystko co w Produkt, ale węższy zakres KategoriiVAT - walidowana względem podzbioru odpowiedniego dla tej klasy
+   * T Kalorie - wartość kaloryczna na 100g produktu, czyli T powinno być nieujemne; może być decimal z odp. hermetyzacją, albo uint (do wyboru)
+   * HashSet<string> Alergeny - może być NotImplementedException; w wypadku implementacji najlepiej walidować względem statycznego zbioru przewidywanych alergenów
+* ProduktSpożywczyNaWagę
+   * wszystko co w ProduktSpożywczy
+* ProduktSpożywczyPaczka
+   * wszystko co w ProduktSpożywczy
+   * decimal Waga - nie może być ujemna
+* ProduktSpożywczyNapój
+   * wszystko co w ProduktSpożywczyPaczka
+   * T Objętość - objętość w mililitrach, czyli np T to uint (do wyboru przez was w trakcie implementacji)
+* Wielopak:
+   * Produkt Produkt - referencja na produkt, który jest częścią wielopaku;
+   * ushort Ilość - ile produktów znajduje się w wielopaku
+   * decimal CenaNetto - własna cena wielopaku
+   * decimal CenaBrutto - wyliczana dokładnie tak jak dla pojedynczego produktu
+   * KategoriaVAT, KrajPochodzenia - mogą przekierowywać do odp wartości z produktu składowego
+Zwrócić uwagę na to, że Produkt i Wielopak powinny móc się znaleźć jednocześnie np w koszyku.

@@ -1,0 +1,20 @@
+Utworzyć klasę Osoba, zawierającą następujące składowe:
+
+
+Konstruktor, wymagający argumentu:
+string imięNazwisko - zapisujemy wartość jako właściwość ImięNazwisko
+
+
+Pola:
+string imię,
+string Nazwisko (może być publiczne, jeśli nie buforujemy ImięNazwisko tylko sklejamy w geterze),
+DateTime? DataUrodzenia = null (może być publiczne),
+DateTime? DataŚmierci = null (może być publiczne),
+
+
+Publiczne właściwości:
+string Imię - przy zapisie sprawdza, czy value nie jest puste i zwraca w takim wypadku wyjątek
+
+string ImięNazwisko - przy odczycie skleja imię i nazwisko z użyciem spacji; przy zapisie rozbija napis względem spacji i traktuje pierwszą składową jako Imię, a ostatnią jako Nazwisko; w wypadku jednoczłonowego value ustawia puste Nazwisko;
+
+TimeSpan? Wiek - tylko do odczytu, oblicza wiek na podstawie DataUrodzenia i DataŚmierci, lub obecnego momentu, jeśli DataŚmierci jest null. Jeśli DataUrodzenia jest null, to zwraca null

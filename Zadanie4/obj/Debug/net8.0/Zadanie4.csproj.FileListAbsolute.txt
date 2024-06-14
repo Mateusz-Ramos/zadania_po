@@ -1,0 +1,15 @@
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\bin\Debug\net8.0\Zadanie4.exe
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\bin\Debug\net8.0\Zadanie4.deps.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\bin\Debug\net8.0\Zadanie4.runtimeconfig.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\bin\Debug\net8.0\Zadanie4.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\bin\Debug\net8.0\Zadanie4.pdb
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.AssemblyInfoInputs.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.AssemblyInfo.cs
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.csproj.CoreCompileInputs.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.sourcelink.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\refint\Zadanie4.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.pdb
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\Zadanie4.genruntimeconfig.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie4\obj\Debug\net8.0\ref\Zadanie4.dll

@@ -1,0 +1,29 @@
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\bin\Debug\net8.0\Zadanie1.exe
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\bin\Debug\net8.0\Zadanie1.deps.json
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\bin\Debug\net8.0\Zadanie1.runtimeconfig.json
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\bin\Debug\net8.0\Zadanie1.dll
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\bin\Debug\net8.0\Zadanie1.pdb
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfoInputs.cache
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfo.cs
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.csproj.CoreCompileInputs.cache
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.dll
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\refint\Zadanie1.dll
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.pdb
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\Zadanie1.genruntimeconfig.cache
+C:\Users\mramos\Desktop\Zad Zal1\Zadanie1\obj\Debug\net8.0\ref\Zadanie1.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.exe
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.deps.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.runtimeconfig.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.pdb
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfoInputs.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfo.cs
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.csproj.CoreCompileInputs.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.sourcelink.json
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\refint\Zadanie1.dll
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.pdb
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.genruntimeconfig.cache
+C:\Users\mramos\Desktop\repo\zadania\Zadanie1\Zadanie1\obj\Debug\net8.0\ref\Zadanie1.dll

@@ -1,0 +1,20 @@
+﻿Zdefiniować klasę Prostokąt, zawierającą następujące składowe:
+* Konstruktora przyjmującego dwa argumetny typu double - długości boków, które należy zapisać jako odpowiednie właściwości
+* Niepublicznych pól double bokA i bokB
+* Publicznych właściwości double BokA i BokB - obie mają w seterze sprawdzić, czy value jest skończoną nieujemną liczbą i zwrócić wyjątek w innych przypadkach
+* statycznego słownika Dictionary<char, decimal> wysokośćArkusza0 = {
+        [‘A’] = 1189,
+        [‘B’] = 1414,
+        [‘C’]  = 1297
+}
+* Publicznej statycznej metody Prostokąt ArkuszPapieru, przyjmującej 1 argument typu string w formacie “Xi”, gdzie X powinno być literą wskazującą na stosowany szereg (A, B lub C), a i to indeks w szeregu (tj. 0, 1, 2, …).
+(formaty arkusza papieru wg normy ISO 216 i ISO 269)
+Metoda powinna przeprowadzić operacje z użyciem kluczy i wartości ze słownika wysokośćArkusza0 - to jest:
+   * zachować pierwszy znak formatu jako char X - można sprawdzić, czy jest poprawnym kluczem w słowniku,
+   * sparsować resztę formatu jako byte i,
+   * uzyskać bazową wysokość ze słownika,
+   * obliczyć wysokość i szerokość arkusza Xi w milimetrach:
+   * bokA = wysokość / Math.Pow(pierwiastekZDwóch, i),
+   * bokB = bokA / pierwiastekZDwóch,
+(pierwiastekZDwóch może być zachowany jako statyczne pole klasy lub obliczony lokalnie)
+      * zwrócić nową instancję klasy Prostokąt o wyliczonych rozmiarach

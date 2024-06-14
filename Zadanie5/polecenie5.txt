@@ -1,0 +1,6 @@
+﻿Zdefiniować klasę Macierz<T>:
+* konstruktor przyjmujący wymiar wierszy i wymiar kolumn, tworzący nową tablicę dwuwymiarową odpowiednich rozmiarów i typu komórek
+* indeksator z geterem i seterem - dwuwymiarowe indeksy!, powinien być typ (int,int) lub (uint,uint) jako typ indeksu
+* przeciążenie operatorów == i !=, które sprawdzi wymiar porównywanych macierzy a przy zgodnym wymiarze porówna wszystkie komórki
+* implementacja interfejsu IEquatable<Macierz<T>>, działająca zgodnie z operatorem ==
+* dodatkowe punkty za weryfikację, czy T jest porównywalne z T

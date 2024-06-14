@@ -1,0 +1,15 @@
+﻿Zbudować klasę Wektor reprezentującą wektor o dowolnym wymiarze
+* Pola double[] współrzędne - wartości na poszczególnych współrzędnych
+* Konstruktora/ów Wektor(byte wymiar) i/lub Wektor(params double[] współrzędne)
+* Własność tylko do odczytu double Długość {get;} - można skorzystać z IloczynSkalarny(this, this)
+* Własność tylko do odczytu byte Wymiar {get;} - albo osobne pole, albo po prostu długość tablicy współrzędnych
+* Indeksatora this[byte]
+* Statyczne metody:
+   * double(?) IloczynSkalarny(Wektor V, Wektor W) - należy skontrolować wymiar obu wektorów i jeśli jest różny to zwracamy double.NaN (albo null ?) lub wyjątek
+   * Wektor Suma(params Wektor[] Wektory) - tak jak wyżej skontrolować wymiar…
+
+
+* operator +(Wektor,Wektor) zwracający nową instancję, będącą sumą wektorów
+* operator -(Wektor,Wektor) zwracający nową instancję, będącą różnicą wektorów
+* operatory *(Wektor,double) i *(double,Wektor), zwracające nową instancję, będącą wektorem wymnożonym przez skalar
+* operatory /(Wektor,double), zwracające nową instancję, będącą wektorem podzielonym przez skalar
